@@ -7,6 +7,8 @@ completion-trigger-len = 1
 completion-replace = true
 auto-info = true
 auto-format = true
+# need this to force 256-bit color on certain terminals
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
