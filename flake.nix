@@ -16,7 +16,7 @@
     nixosConfigurations.home = nixpkgs.lib.nixosSystem {
       inherit system;
       modules = [
-        ./pers/configuration.nix
+        ./home/configuration.nix
       ];
     };
   };
